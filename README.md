@@ -8,3 +8,6 @@ I will be working my way through each of the questions to help sharpen and expan
 
 ### 1. Boston Marathon: Outlier Detection
 I used statistical analysis, including Inter-Quartile Ranges and Standard Deviations, to determine if there were more outliers that were slower or faster than the average runner, as well as which winner had the most remarkable performance based on their gender and age group.
+
+### 2. NFL Combine: Correlations & Distributions
+Using results from the NFL Combine, I used Pearson's Coefficient to determine the correlations between a player's results at the Combine and their draft status.  The initial data was relatively thin, so I utilized BeautifulSoup to webscrape a more robust dataset that still included the original data.  I also used Plotly to visualize the distributions of event scores across positions, as well as the distribution of scores between drafted and undrafted players.
