@@ -12,5 +12,5 @@ I used statistical analysis, including Inter-Quartile Ranges and Standard Deviat
 ### 2. NFL Combine: Correlations & Distributions
 Using 20 years worth of results from the NFL Combine, I used Pearson's Coefficient to determine the correlations between a player's results at the Combine and their draft status.  The initial data was relatively thin, so I utilized BeautifulSoup to webscrape a more robust dataset that still included the original data.  I also used Plotly to visualize the distributions of event scores across positions, as well as the distribution of scores between drafted and undrafted players.
 
-### 3. Justin Verlander Pitches
+### [3. Justin Verlander Pitches](https://github.com/thebrianjohns/score_repo/blob/main/verlander/verlander_pitches.ipynb)
 Comparing the 2019 and 2022 seasons, I used the chi-squared test to see if the type of pitch that Verlander through was independent of the pitch count during an at-bat.  After concluding that the pitch type WAS dependent on the pitch count, I further analyzed how Verlander's distribution of pitches differed from the 2019 season to the 2022 season.
