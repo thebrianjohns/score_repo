@@ -14,3 +14,6 @@ Using 20 years worth of results from the NFL Combine, I used Pearson's Coefficie
 
 ### [3. Justin Verlander Pitches](https://github.com/thebrianjohns/score_repo/blob/main/verlander/verlander_pitches.ipynb)
 Comparing the 2019 and 2022 seasons, I used the chi-squared test to see if the type of pitch that Verlander through was independent of the pitch count during an at-bat.  After concluding that the pitch type WAS dependent on the pitch count, I further analyzed how Verlander's distribution of pitches differed from the 2019 season to the 2022 season.
+
+### [4. WNBA Shot ](https://github.com/thebrianjohns/score_repo/blob/main/wnba/wnba_visuals_classification.ipynb)
+Using shot chart data from the 2021-22 season, I visualized the tendencies for each WNBA team, and each type of shot made for the entire season.  Then, I made Logistic Regression, SVC, Random Forest and XGBoost models in order to optimize a Classification model for predicting whether a WNBA shot would go in or not.  I then utilized the best version of each model in an Ensemble Classifier, using soft voting, in order to produce the most accurate Classification model possible.
